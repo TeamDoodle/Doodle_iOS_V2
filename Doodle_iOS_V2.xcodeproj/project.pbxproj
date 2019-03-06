@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FE17D7140D659ACD1A7F22B /* Pods_Doodle_iOS_V2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F31E145871BFB4ADD723F /* Pods_Doodle_iOS_V2.framework */; };
 		5202E71D221EAD5400D712B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5202E71C221EAD5400D712B0 /* AppDelegate.swift */; };
 		5202E71F221EAD5400D712B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5202E71E221EAD5400D712B0 /* ViewController.swift */; };
 		5202E722221EAD5400D712B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5202E720221EAD5400D712B0 /* Main.storyboard */; };
 		5202E724221EAD5500D712B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5202E723221EAD5500D712B0 /* Assets.xcassets */; };
 		5202E727221EAD5500D712B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5202E725221EAD5500D712B0 /* LaunchScreen.storyboard */; };
-		C056353BB8602AC1ADFBA463 /* Pods_Doodle_iOS_V2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2ABF2D6C46648987F2D5B8 /* Pods_Doodle_iOS_V2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +23,9 @@
 		5202E723221EAD5500D712B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5202E726221EAD5500D712B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5202E728221EAD5500D712B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E2ABF2D6C46648987F2D5B8 /* Pods_Doodle_iOS_V2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Doodle_iOS_V2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		947A6D69DED7A33D844AC505 /* Pods-Doodle_iOS_V2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doodle_iOS_V2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Doodle_iOS_V2/Pods-Doodle_iOS_V2.debug.xcconfig"; sourceTree = "<group>"; };
-		F2B2BFAAAB118700252F5076 /* Pods-Doodle_iOS_V2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doodle_iOS_V2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Doodle_iOS_V2/Pods-Doodle_iOS_V2.release.xcconfig"; sourceTree = "<group>"; };
+		943F31E145871BFB4ADD723F /* Pods_Doodle_iOS_V2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Doodle_iOS_V2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA350BCCAA7736F280A1B7FB /* Pods-Doodle_iOS_V2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doodle_iOS_V2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Doodle_iOS_V2/Pods-Doodle_iOS_V2.debug.xcconfig"; sourceTree = "<group>"; };
+		F47C9953DFFCC66BB8D03AA5 /* Pods-Doodle_iOS_V2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doodle_iOS_V2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Doodle_iOS_V2/Pods-Doodle_iOS_V2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,29 +33,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C056353BB8602AC1ADFBA463 /* Pods_Doodle_iOS_V2.framework in Frameworks */,
+				1FE17D7140D659ACD1A7F22B /* Pods_Doodle_iOS_V2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B67F9D3CBB2520DDD83D462 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				947A6D69DED7A33D844AC505 /* Pods-Doodle_iOS_V2.debug.xcconfig */,
-				F2B2BFAAAB118700252F5076 /* Pods-Doodle_iOS_V2.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		5202E710221EAD5400D712B0 = {
 			isa = PBXGroup;
 			children = (
 				5202E71B221EAD5400D712B0 /* Doodle_iOS_V2 */,
 				5202E71A221EAD5400D712B0 /* Products */,
-				1B67F9D3CBB2520DDD83D462 /* Pods */,
-				88B0CB1AC02CE4FDA403CB6C /* Frameworks */,
+				82D5F2D7EDCA4E053D25E1EA /* Pods */,
+				F8AC3BE6E5C811C09510648C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,20 +61,85 @@
 		5202E71B221EAD5400D712B0 /* Doodle_iOS_V2 */ = {
 			isa = PBXGroup;
 			children = (
-				5202E71C221EAD5400D712B0 /* AppDelegate.swift */,
-				5202E71E221EAD5400D712B0 /* ViewController.swift */,
-				5202E720221EAD5400D712B0 /* Main.storyboard */,
-				5202E723221EAD5500D712B0 /* Assets.xcassets */,
-				5202E725221EAD5500D712B0 /* LaunchScreen.storyboard */,
-				5202E728221EAD5500D712B0 /* Info.plist */,
+				52D7AC5D2226936400500AC2 /* Support */,
+				52D7AC5E222693EE00500AC2 /* Storyboard */,
+				52F8F615222FDBB7001D4972 /* Model */,
+				52F8F616222FDBF3001D4972 /* View */,
+				52D7AC5C2226935400500AC2 /* ViewController */,
+				52F8F617222FDC83001D4972 /* Extension */,
 			);
 			path = Doodle_iOS_V2;
 			sourceTree = "<group>";
 		};
-		88B0CB1AC02CE4FDA403CB6C /* Frameworks */ = {
+		52D7AC5C2226935400500AC2 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				5E2ABF2D6C46648987F2D5B8 /* Pods_Doodle_iOS_V2.framework */,
+				5202E71E221EAD5400D712B0 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		52D7AC5D2226936400500AC2 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				5202E71C221EAD5400D712B0 /* AppDelegate.swift */,
+				5202E728221EAD5500D712B0 /* Info.plist */,
+				5202E725221EAD5500D712B0 /* LaunchScreen.storyboard */,
+				5202E723221EAD5500D712B0 /* Assets.xcassets */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		52D7AC5E222693EE00500AC2 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5202E720221EAD5400D712B0 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		52F8F615222FDBB7001D4972 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52F8F618222FDD0E001D4972 /* Realm */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52F8F616222FDBF3001D4972 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52F8F617222FDC83001D4972 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		52F8F618222FDD0E001D4972 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		82D5F2D7EDCA4E053D25E1EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA350BCCAA7736F280A1B7FB /* Pods-Doodle_iOS_V2.debug.xcconfig */,
+				F47C9953DFFCC66BB8D03AA5 /* Pods-Doodle_iOS_V2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8AC3BE6E5C811C09510648C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				943F31E145871BFB4ADD723F /* Pods_Doodle_iOS_V2.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -95,11 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5202E72B221EAD5500D712B0 /* Build configuration list for PBXNativeTarget "Doodle_iOS_V2" */;
 			buildPhases = (
-				062E357C21BCBA9DDD32A1DB /* [CP] Check Pods Manifest.lock */,
+				4D44032EA1A56F14F59FE806 /* [CP] Check Pods Manifest.lock */,
 				5202E715221EAD5400D712B0 /* Sources */,
 				5202E716221EAD5400D712B0 /* Frameworks */,
 				5202E717221EAD5400D712B0 /* Resources */,
-				45B87395BFBD28CDAD278383 /* [CP] Embed Pods Frameworks */,
+				E555BEE1357535F2EB8D0F8E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,7 +213,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		062E357C21BCBA9DDD32A1DB /* [CP] Check Pods Manifest.lock */ = {
+		4D44032EA1A56F14F59FE806 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -179,7 +235,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		45B87395BFBD28CDAD278383 /* [CP] Embed Pods Frameworks */ = {
+		E555BEE1357535F2EB8D0F8E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -188,13 +244,23 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Doodle_iOS_V2/Pods-Doodle_iOS_V2-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -353,7 +419,7 @@
 		};
 		5202E72C221EAD5500D712B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 947A6D69DED7A33D844AC505 /* Pods-Doodle_iOS_V2.debug.xcconfig */;
+			baseConfigurationReference = AA350BCCAA7736F280A1B7FB /* Pods-Doodle_iOS_V2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -372,7 +438,7 @@
 		};
 		5202E72D221EAD5500D712B0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2B2BFAAAB118700252F5076 /* Pods-Doodle_iOS_V2.release.xcconfig */;
+			baseConfigurationReference = F47C9953DFFCC66BB8D03AA5 /* Pods-Doodle_iOS_V2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

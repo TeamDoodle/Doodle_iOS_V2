@@ -6,6 +6,9 @@ target 'Doodle_iOS_V2' do
   use_frameworks!
 
   # Pods for Doodle_iOS_V2
-   pod 'Alamofire'
+   pod 'SnapKit'
+   pod 'RxSwift'
+   pod 'RxCocoa'
+   pod 'RealmSwift'
 
 end
